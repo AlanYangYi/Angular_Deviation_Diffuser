@@ -8,6 +8,8 @@
 
 ![Angular Deviation Diffuser Workflow](https://github.com/AlanYangYi/angular_deviation_diffuser/blob/2db3939e7b49b2c8b821c8dd9ac6b1210c9f8f50/Pictures/overview.png)
 
+## Computational results
+
 ![Generated Conformations Example](https://github.com/AlanYangYi/angular_deviation_diffuser/blob/2db3939e7b49b2c8b821c8dd9ac6b1210c9f8f50/Pictures/Dark_and_light_generated_by_our_model.gif)
 
 ![Using angles V.S. Using angle deviation](https://github.com/AlanYangYi/angular_deviation_diffuser/blob/2db3939e7b49b2c8b821c8dd9ac6b1210c9f8f50/Pictures/angleVSanglechange.gif)
