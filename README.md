@@ -119,6 +119,9 @@ refine.refine_conformations('reconstructed_structure.pdb', "refined_conformation
 Replace `'reconstructed_structure.pdb'` and `"refined_conformation.pdb"` with the appropriate file names for input and output.
 
 
+## Online Training and Sample 
+Google Colab:https://colab.research.google.com/drive/1paTyFVRMzD4b75DeFjYyXlMV38d1eE1I#scrollTo=Dg41j6Feaj6f. 
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
