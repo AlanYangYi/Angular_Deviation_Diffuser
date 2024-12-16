@@ -1,0 +1,37 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Angular_Deviation_Diffuser"
+version = "1.0.9"
+description = "This is a Transformer-Based diffusion model for Efficient Protein Conformational Ensemble Generation"
+readme = "README.md"
+authors = [{ name = "yi yang", email = "yiyangalan@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics"
+
+]
+keywords = ["diffusion model", "protein conformation", "angular deviation"]
+dependencies = [
+    "numpy <= 1.26.4",
+    "lightning >= 2.4.0",
+    "transformers >=  4.20.0",
+    "biotite == 0.35.0",
+    "pandas",
+    "pyrosetta-installer"
+   
+]
+requires-python = ">=3.8"
+
+
+[project.urls]
+Homepage = "https://github.com/AlanYangYi/angular_deviation_diffuser"
+
