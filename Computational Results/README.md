@@ -1,5 +1,5 @@
 
-# README for Figures in Repository
+# Computational Results shown in figures
 
 This README file provides descriptions for all the figures included in this repository to aid in understanding their context and purpose. Each figure is associated with a specific aspect of the study and has been organized sequentially.
 
