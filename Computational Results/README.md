@@ -1,7 +1,7 @@
 # Angular Deviation Diffuser: An Angular Deviation-Based Diffusion Model for Efficient Protein Conformational Ensemble Generation
 ## Abstract:
 Protein functionality is inherently tied to its structure, with both static and dynamic conformations playing critical roles in defining biological activity. While molecular dynamics (MD) simulations have long been the standard for exploring protein dynamics, they come with high computational costs and limited sampling efficiency. Recent advances in deep learning, such as AlphaFold, have significantly improved static protein structure prediction, yet accurately generating the dynamic ensemble of protein conformations remains a complex challenge. In this study, we present a transformer-based diffusion model that generates diverse conformational ensembles of protein backbones by utilizing angular deviations as data flow. Our model combines a cutting-edge diffusion model with the principles of SE(3) symmetry to enhance both the accuracy and efficiency of conformational sampling. Applied to the Vivid (VVD) Photoreceptor protein system, the generated ensembles closely align with those from MD simulations while covering a broader range of conformational states. This approach offers an improved methodology for capturing protein dynamics, contributing to a more comprehensive understanding of protein structure and function.
-## Keywords: angular deviation, diffusion model, the three-dimensional (3D) structure, molecular dynamics (MD) simulation, the Vivid (VVD) Photoreceptor protein
+### Keywords: angular deviation, diffusion model, the three-dimensional (3D) structure, molecular dynamics (MD) simulation, the Vivid (VVD) Photoreceptor protein
 
 # Computational Results shown in figures
 
@@ -68,8 +68,6 @@ This figure compares the directly generated conformations to those refined throu
 - **(b):** Using angle deviation as data flow.
 This figure highlights how the angle distributions evolve during the denoising process for the dark state system.
 
-## Repository Organization
-All figures are stored in the `figures/` directory. Supplementary figures are prefixed with "S" to distinguish them from main figures. Descriptions here can guide interpretation and correlate with the relevant sections of the associated paper.
 
-For questions or additional information, please contact the repository maintainers.
+
 
