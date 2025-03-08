@@ -9,9 +9,13 @@ This README file provides descriptions for all the figures included in this repo
 
 ## Main Figures
 
+![Angular Deviation Diffuser Workflow](https://github.com/AlanYangYi/angular_deviation_diffuser/blob/2db3939e7b49b2c8b821c8dd9ac6b1210c9f8f50/Pictures/overview.png)
+
 ### Figure 1: Overview of Our Work
 This figure provides a comprehensive overview of our research workflow, summarizing the major steps and key methodologies used.
 
+
+![Figure2] (https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/Figure2.svg)
 ### Figure 2: Six Angle Types of the Protein Backbone
 This figure illustrates the six types of angles in the protein backbone. Bond angles are shown in light green, while dihedral angles are depicted in dark green.
 
