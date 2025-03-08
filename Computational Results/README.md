@@ -8,33 +8,44 @@ Protein functionality is inherently tied to its structure, with both static and 
 This README file provides descriptions for all the figures included in this repository to aid in understanding their context and purpose. Each figure is associated with a specific aspect of the study and has been organized sequentially.
 
 ## Main Figures
-
-![Angular Deviation Diffuser Workflow](https://github.com/AlanYangYi/angular_deviation_diffuser/blob/2db3939e7b49b2c8b821c8dd9ac6b1210c9f8f50/Pictures/overview.png)
-
 ### Figure 1: Overview of Our Work
 This figure provides a comprehensive overview of our research workflow, summarizing the major steps and key methodologies used.
 
+![Angular Deviation Diffuser Workflow](https://github.com/AlanYangYi/angular_deviation_diffuser/blob/2db3939e7b49b2c8b821c8dd9ac6b1210c9f8f50/Pictures/overview.png)
 
-![Figure2] (https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/Figure2.svg)
+
 ### Figure 2: Six Angle Types of the Protein Backbone
 This figure illustrates the six types of angles in the protein backbone. Bond angles are shown in light green, while dihedral angles are depicted in dark green.
 
+![Figure2](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/Figure2.svg).
+
+
 ### Figure 3: Using Angle Deviation vs. Absolute Angles
 - **(a):** Comparison of the proportion of correctly folded structures generated using absolute angles versus angular deviation.
+![Figure3a](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/figure3a.svg).
 - **(b):** Comparison of RMSD area under the curve and JS divergence between generated angle distributions and MD simulation angle distributions.
+![Figure3b](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/figure3b.svg).
+
 
 ### Figure 4: Angle Distributions Between Generated Structures and MD Simulation
 - **(a):** Dark state system.
+  ![Figure4a](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/Figure4a.svg).
 - **(b):** Light state system.
+  ![Figure4a](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/Figure4b.svg).
 This figure showcases the distributions of the six angle types for both systems.
 
 ### Figure 5: Ramachandran Plot of Generated Ensembles
 - **(a):** Dark state system.
+  ![Figure5a](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/figure5a.svg).
 - **(b):** Light state system.
+ ![Figure5b](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/figure5b.svg).
 These plots visualize the generated ensembles' backbone dihedral angles.
 
 ### Figure 6: RMSD Distributions with Training Set
 The x-axis represents the RMSD for the dark state, while the y-axis represents the RMSD for the light state. This figure shows how closely the generated structures align with the training data.
+
+![Figure6](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/figure6.svg).
+
 
 ### Figure 7: Pairwise RMSD Distributions for Five Conformational Ensembles
 This figure compares five distinct ensembles:
@@ -45,31 +56,39 @@ This figure compares five distinct ensembles:
 5. Structures generated using AlphaFold Flow.
 
 - **(a):** Dark state system.
+ ![Figure7a](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/figure7a.svg).
+  
 - **(b):** Light state system.
-These pairwise distributions show how the generated ensembles align with the original MD simulation ensemble.
+  ![Figure7b](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/figure7b.svg).
+- These pairwise distributions show how the generated ensembles align with the original MD simulation ensemble.
 
 ### Figure 8: Two MD Simulation Systems
 This figure illustrates the two MD simulation systems:
 - Dark state system (PDB ID 2pd7).
 - Light state system (PDB ID 3rh8).
-
+![Figure8](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/figure8.svg).
 ### Figure 9: Denoising Process Using Angles and Angle Deviations
 - **(a):** Using angle deviations.
+  ![Figure9a](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/figure9a.svg).
 - **(b):** Using absolute angles.
+  ![Figure9b](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/figure9b.svg).
 This figure depicts shifts in angle distributions and conformational changes during the denoising process for the dark state system.
 
 ## Supplementary Figures
 
 ### Figure S1: Dark and Light State MD Simulations
 - **(a):** RMSD regarding the first frame and RMSF regarding the averaged conformation for each system.
+  ![FigureS1a](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/supplement_figure1a.svg).
 - **(b):** Ramachandran plot for each system.
-
+![FigureS1b](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/supplement_figure1b.svg).
 ### Figure S2: Comparison of Generated vs. Refined Conformations
 This figure compares the directly generated conformations to those refined through RMSD. Light-colored structures correspond to conformations before refinement, while dark-colored structures represent refined conformations.
-
+![FigureS2](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/supplement_figure2.svg).
 ### Figure S3: Angle Distribution Changes During Denoising
 - **(a):** Using absolute angles as data flow.
+  ![FigureS3a](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/supplement_figure3a.svg).
 - **(b):** Using angle deviation as data flow.
+  ![FigureS3b](https://github.com/AlanYangYi/Angular_Deviation_Diffuser/blob/main/Computational%20Results/supplement_figure3b.svg).
 This figure highlights how the angle distributions evolve during the denoising process for the dark state system.
 
 
