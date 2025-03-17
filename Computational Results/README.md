@@ -4,6 +4,7 @@ Protein functionality is inherently tied to its structure, with both static and 
 ### Keywords: angular deviation, diffusion model, the three-dimensional (3D) structure, molecular dynamics (MD) simulation, the Vivid (VVD) Photoreceptor protein
 
 ### Presentation Slide: [Google Drive](https://docs.google.com/presentation/d/1Q__65vTskoqPcXgiTq0xRhqN3LCyFN8V/edit?usp=sharing&ouid=101767369176883618869&rtpof=true&sd=true).
+### Manuscript available at [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.03.03.640492v1.full.pdf).
 # Computational Results shown in figures
 
 This README file provides descriptions for all the figures included in this repository to aid in understanding their context and purpose. Each figure is associated with a specific aspect of the study and has been organized sequentially.
