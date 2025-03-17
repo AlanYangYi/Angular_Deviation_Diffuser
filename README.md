@@ -5,7 +5,7 @@
 ## Overview
 
 **Angular Deviation Diffuser** is a transformer-based diffusion model designed for efficiently generating conformational ensembles of protein backbones by using angular deviations as data flow. It aims to overcome the limitations of traditional molecular dynamics (MD) simulations by providing a fast and computationally efficient approach for sampling protein conformational landscapes. This model leverages the concepts of SE(3) symmetry, angular deviations, and diffusion processes to produce dynamic ensembles that closely match those generated through MD simulations, thereby offering a new way to study protein structure and function.
-
+### Now Manuscript available at [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.03.03.640492v1.full.pdf).
 
 
 ![Angular Deviation Diffuser Workflow](https://github.com/AlanYangYi/angular_deviation_diffuser/blob/2db3939e7b49b2c8b821c8dd9ac6b1210c9f8f50/Pictures/overview.png)
